@@ -5,16 +5,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/style.css">
+
+  <!-- Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <title>Моє резюме</title>
 </head>
 
 <body>
+
   <!-- Main -->
-  <div>
+
+  <div class="main">
+
     <!-- Main content -->
-    <div>
+
+    <div class="main-content">
+
       <!-- About user -->
-      <div>
+
+      <div class="about">
         <h2>Front-end розробник</h2>
 
         <h1>Тарас Іщук</h1>
@@ -22,44 +35,127 @@
       </div>
 
       <!-- Projects -->
-      <div>
-        <h3>Projects</h3>
+
+      <div class="projects">
+        <h3 class="project-title">Проекти</h3>
         <ol>
           <li>
-            <a href="https://ishchuktaras.github.io/bike_servise/">Сайт вело сервісу.</a>
+            <a href="https://ishchuktaras.github.io/bike_servise/">Сайт вело сервісу</a> ............ [HTML, CSS]
           </li>
           <li>
-            <a href="https://ishchuktaras.github.io/restaurant/">Сайт ресторану.</a>
+            <a href="https://ishchuktaras.github.io/restaurant/">Сайт ресторану</a>................... [HTML, CSS]
           </li>
           <li>
-            <a href="https://ishchuktaras.github.io/projekt-portfolio/">Сайт-портфоліо.</a>
+            <a href="https://ishchuktaras.github.io/projekt-portfolio/">Сайт-портфоліо</a>.................. [HTML, CSS,
+            JavaScript]
           </li>
         </ol>
       </div>
+
       <!-- Work -->
-      <div>
+
+      <div class="work">
         <h3>Досвід роботи</h3>
+
         <!-- Company -- 1 -->
+
         <div>
           <h4>Front-end розробник.</h4>
           <p>Липень 2021 - до тепер. Чеська республіка.</p>
           <ul>
-            <li> lorem </li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Створення дизайн-макетів WEB-сторінок (Figma)</li>
+            <li>Верстка та стилізація WEB-сторінок (HTML, CSS, SCSS, Bootstrap)</li>
+            <li>З JavaScrip найчастіше використовую бібліотеку jQuery.</li>
+            <li>В роботі використовую допоміжні інструменти для організації завдань Gulp/Grunt, розподілену систему
+              контролю версій Git, сервіс для хостингу IT-проєктів та спільної розробки GitHub, а також інше</li>
           </ul>
         </div>
 
         <!-- Company -- 2 -->
 
-        <div></div>
-      </div>
+        <div>
+          <h4>Менеджер системи автоматизації продаж "Кондитерська фабрика "ЖЛ". м.Житомир</h4>
+          <p>Грудень 2012 - травень 2015. Київ.</p>
+          <ul>
+            <li>Впровадження САП "Sales Works" від компанії "Soft Serve"</li>
+          </ul>
+        </div>
 
+        <!-- Company -- 3 -->
+
+        <div>
+          <h4>Економіст відділу статистики роздрібної торгівлі.</h4>
+          <p>серпень 2008 - листопад 2012. Житомир.</p>
+          <ul>
+            <li>Збір даних звітів підприємств та організацій з діяльності роздрібної торгівлі</li>
+            <li>Участь в зведенні та розробці аналітичних збірників роздрібної торгівлі</li>
+            <li>Робота з захисту інформації режимно-секретного відділу</li>
+          </ul>
+        </div>
+
+        <!-- Education -->
+
+        <div class="education">
+          <h3>Освіта</h3>
+
+          <h4>IT Stap Academy. Прага, Чеська республіка</h4>
+          <h5>Front-end розробка</h5>
+          <p>Жовтень 2021 - Лютий 2022</p>
+
+          <h4>Київський національний економічний університет ім.Вадима Гетьмана</h4>
+          <h5>Економіка</h5>
+          <p>Лютий 2010 - березень 2012</p>
+
+          <h4>Європейський університет. Житомирська філія</h4>
+          <h5>Менеджмент зовнішньо-економічної діяльності</h5>
+          <p>Вересень 2002 - травень 2008</p>
+        </div>
+      </div>
     </div>
 
-    <aside></aside>
 
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+      <img src="images/ishchuk.jpg" alt="user_photo">
+
+      <!-- Contacts -->
+
+      <div class="contacts">
+        <h3>Контакти</h3>
+        <div>
+          <p>C:<a href="tel:+420777596216"> +420 777596216</a></p>
+          <p>E:<a href="mailto:ishchuktaras@gmail.com"> ishchuktaras@gmail.com</a></p>
+        </div>
+      </div>
+
+      <!-- Tech Skills -->
+
+      <div class="tech-skills">
+        <h3>Технічні навички</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>GIT</li>
+          <li>SCSS</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+
+      <!-- Soft Skills -->
+
+      <div class="soft-skills">
+        <h3>Інші навички</h3>
+        <ul>
+          <li>Scrum</li>
+          <li>Agile</li>
+          <li>GTD</li>
+          <li>Teamwork</li>
+        </ul>
+      </div>
+    </aside>
   </div>
 
 </body>

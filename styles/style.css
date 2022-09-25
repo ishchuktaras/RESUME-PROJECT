@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  padding: 15px;
+}
+
+/* Main styles */
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #F5F7FA;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main-content {
+  background: #FFFFFF;
+  margin: 40px;
+}
+
+/* About styles */
+
+.about,
+.projects,
+.work {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+/* Project styles */
+
+
+
+/* Work styles */
+
+
+
+/* Education styles */
+
+.education {
+  margin-left: 10px;
+}
+
+/* Sidebar styles */
+
+.sidebar {
+  background: #1E2939;
+  color: #FFFFFF;
+  margin: 44px 0;
+}
+
+ul>li {
+  list-style-type: none;
+  padding: 6px;
+}
+
+ul>li::before {
+  content: "• ";
+  color: #FB6D3A;
+
+}
+
+img {
+  width: 370px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+  width: max-content;
+  margin: 45px 40px;
+}
+
+.contacts>div>p>a {
+  color: #FFFFFF;
+}
