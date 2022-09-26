@@ -52,6 +52,7 @@ a {
 /* Sidebar styles */
 
 .sidebar {
+  width: 370px;
   background: #1E2939;
   color: #FFFFFF;
   padding-top: 40px;
@@ -69,7 +70,7 @@ ul>li::before {
 }
 
 .photo {
-  
+
   width: 370px;
 }
 
